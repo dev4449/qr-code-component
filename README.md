@@ -33,8 +33,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL at Github](https://github.com/dev4449/qr-code-component)
+- Live Site URL: [Live site URL at Github Pages](https://dev4449.github.io/qr-code-component/)
 
 ## My process
 
@@ -59,7 +59,7 @@ I believe I need to learn flexbox and grid deeply and gain knowledge and develop
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/dev4449)
+- Frontend Mentor - [@dev4449](https://www.frontendmentor.io/profile/dev4449)
 - Discord - dev4449 - [dev4449](https://discord.com/users/dev4449)
 
 ## Acknowledgments
