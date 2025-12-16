@@ -1,0 +1,94 @@
+:root {
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --white: white;
+
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+
+  --default-font-size: 15px;
+  --default-font-weight: 400;
+  --default-line-height: 140%;
+  --default-letter-spacing: 0.2px;
+
+  --bold-font-size: 22px;
+  --bold-font-weight: 700;
+  --bold-line-height: 120%;
+  --bold-letter-spacing: 0px;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/font/Outfit-VariableFont_wght.ttf") format("woff2-variations");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--slate-300);
+}
+
+p {
+  margin: 0;
+}
+
+.qr-code-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 288px;
+  padding: var(--spacing-200);
+  padding-bottom: 40px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-300);
+  align-items: center;
+
+  background-color: var(--white);
+}
+.qr-code-image {
+  border-radius: 10px;
+
+  width: 288px;
+  height: 288px;
+}
+.qr-code-component-textual-content {
+  padding: 0 var(--spacing-200);
+
+  text-align: center;
+}
+.qr-code-component-title {
+  font-size: var(--bold-font-size);
+  font-weight: var(--bold-font-weight);
+  line-height: var(--bold-line-height);
+  letter-spacing: var(--bold-letter-spacing);
+
+  color: var(--slate-900);
+}
+.qr-code-component-description {
+  margin-top: var(--spacing-200);
+
+  font-weight: var(--default-font-weight);
+  font-size: var(--default-font-size);
+  line-height: var(--default-line-height);
+  letter-spacing: var(--default-letter-spacing);
+
+  color: var(--slate-500);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
