@@ -36,8 +36,32 @@ body {
   background-color: var(--slate-300);
 }
 
-p {
+p,
+h1 {
   margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 40px;
+}
+.header-title {
+  text-align: center;
+
+  font-size: var(--bold-font-size);
+  font-weight: var(--bold-font-weight);
+  line-height: var(--bold-line-height);
+  letter-spacing: var(--bold-letter-spacing);
+
+  color: var(--slate-900);
+}
+.main {
+  position: relative;
+  flex-grow: 1;
 }
 
 .qr-code-component {
@@ -88,7 +112,9 @@ p {
   color: var(--slate-500);
 }
 .attribution {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
