@@ -47,7 +47,7 @@ body {
 }
 
 .header {
-  margin-top: 40px;
+  flex-basis: 10vh;
 }
 .header-title {
   text-align: center;
@@ -86,7 +86,7 @@ body {
   border-radius: 10px;
 
   width: 288px;
-  height: 288px;
+  flex-grow: 1;
 }
 .qr-code-component-textual-content {
   padding: 0 var(--spacing-200);
@@ -110,6 +110,9 @@ body {
   letter-spacing: var(--default-letter-spacing);
 
   color: var(--slate-500);
+}
+.footer {
+  flex-basis: 3vh;
 }
 .attribution {
   font-size: 11px;
